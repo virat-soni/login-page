@@ -1,0 +1,48 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login-page</title>
+    <style>
+        *{
+            margin: 0;padding: 0;
+        }
+        form{
+            width: 100vw;
+            height: 90vh;
+            display: flex;
+           
+            justify-content: center;
+            align-items: center;      
+        }
+        .container{
+            width: 310px;
+            height: 200px;
+            border: 20px solid;
+            text-align: center;
+            background-color:rgb(181, 211, 238) ;
+            border-color: rgb(202, 144, 73) #901250 ;
+            user-select: none;
+        }
+        #btn{
+            width: 120px;
+        }
+
+    </style>
+</head>
+<body>
+    <form>
+        <div class="container">
+            <h1>welcome to login page</h1>
+            <label for="username">usarname :</label>
+            <input type="text" placeholder="UserId"><br><br>
+            <label for="password">password :</label>
+            <input type="password" placeholder="password"><br><br>
+            <input type="button" id="btn" onclick="window.location.reload()" value="Login">
+        
+        </div>
+    </form>
+</body>
+   
+</html>
